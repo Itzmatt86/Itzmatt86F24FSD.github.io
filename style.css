@@ -1,11 +1,12 @@
 body {
-    background: rgb(255, 0, 123);
+    background: pink;
+    background-image: url('');
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
 }
 #all-contents {
-  max-width: 800px;
+  max-width: 1200px;
     margin: auto;
 }
 
@@ -45,7 +46,7 @@ main {
     padding: 10px;
 }
 .sidebar-img {
-    width: 400px;
+    width: 600px;
 }
 .content {
     flex: 1;
