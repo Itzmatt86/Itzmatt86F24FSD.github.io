@@ -28,7 +28,7 @@ $(function () {
      * Comment the function call out to remove the grid
      */
 
-    // drawGrid();
+    drawGrid();
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -39,9 +39,15 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-
-
+  
+    createPlatform(400,400,100,100)
+    createPlatform(300,700,100,2)
+    createPlatform(300,575,100,2)
+    createPlatform(300,450,100,2)
+    createPlatform(300,325,100,2)
     
+
+
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
