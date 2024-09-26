@@ -39,7 +39,6 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-  //createPlatform(Xpos,Ypos,W,H)
   createPlatform(100,700,100,10)
   createPlatform(200,600,100,10)
   createPlatform(300,500,100,10)
@@ -53,7 +52,10 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
+    createCollectable('diamond', 130, 600, 1, 1)
+    createCollectable('max', 230, 500, 1, 1)
+    createCollectable('steve', 330, 400, 1, 1)
+    createCollectable('grace', 430, 300, 1, 1)
 
 
     
@@ -62,15 +64,17 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon('bottom', 300, 1000, 50, 50)
+    // createCannon('bottom', 300, 1000, 50, 50)
+    // createCannon('right', 300, 1000, 50, 50)
+    
+    // createCannon('left', 400-(118/2), 1000, 50, 50)//centering on left
+    createCannon('top', 250+(118/2), 3000, 75, 500)//Centering on top
+    // createCannon('left', 150-(118/2), 1000, 50, 50)//centering on left
+    // createCannon('left', 250-(118/2), 1000, 50, 50)//centering on left
     
     
-    createCannon('left', 400-(118/2), 1000, 50, 50)//centering on left
-    createCannon('top', 250+(118/2), 1000, 50, 50)//Centering on top
-   
-    createCannon('left', 150-(118/2), 1000, 50, 50)//centering on left
-    createCannon('left', 250-(118/2), 1000, 50, 50)//centering on left
-    
+
+
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
