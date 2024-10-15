@@ -15,6 +15,8 @@ function main() {
     return;
   }
 
+  
+
   drawPlatforms();
   drawProjectiles();
   drawCannons();
